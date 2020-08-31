@@ -6,6 +6,8 @@
 
 limit = 51
 
-for i in range(limit):
+my_list = list(range(limit))
+
+for i in my_list:
     if i % 2 == 0:
         print(i)
