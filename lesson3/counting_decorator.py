@@ -9,7 +9,6 @@
 '''
 
 from time import time
-from datetime import datetime, timedelta
 from pprint import pprint
 
 def repetition(number_of_calls):
