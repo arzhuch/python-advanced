@@ -1,4 +1,3 @@
-from time import sleep
 from user import User
 from operations import *
 
