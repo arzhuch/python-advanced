@@ -139,5 +139,5 @@ def operations_selector(session):
         else:
             try:
                 operations[action]()
-            except (KeyError, AttributeError):
+            except KeyError:
                 print("Please select one of the suggested options\n")
